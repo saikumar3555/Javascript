@@ -1,0 +1,22 @@
+body{
+    background: white url("../img/image5.jpeg") no-repeat fixed bottom;
+    font-family: "Old English Text MT",sans-serif;
+    font-size: 30px;
+}
+.clock-section{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.clock-article{
+    margin: 5px;
+    border-radius: 10px;
+    width: 25%;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    box-shadow: 0 0 15px black;
+}
+.clock-article h1{
+    font-size: 45px;
+}

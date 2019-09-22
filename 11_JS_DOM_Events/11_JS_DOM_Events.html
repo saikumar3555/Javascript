@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM Manipulation</title>
+    <link rel="stylesheet" href="11_styles.css">
+</head>
+<body>
+
+    <h2>JS DOM Events</h2>
+
+    <div id="login-form">
+        <form>
+            <table>
+                <tr>
+                    <td>User Name</td>
+                    <td>
+                        <input type="text" id="username">
+                    </td>
+                    <td>
+                        <span id="user-text"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <input type="password" id="password">
+                    </td>
+                    <td>
+                        <span id="pass-text"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" id="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+    <section id="sms-app">
+        <h3>SMS App</h3>
+        <form>
+            <textarea id="smsTextArea" rows="5" cols="40" maxlength="100"></textarea>
+            <h3>The Characters Remaining <span id="span">100</span></h3>
+        </form>
+    </section>
+
+
+<script src="11_script.js"></script>
+</body>
+</html>

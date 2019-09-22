@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, sans-serif;
+}
+#employee-section{
+    background-color: lightgreen;
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+    font-size: 18px;
+    border: 5px solid white;
+    box-shadow:0 0 15px black ;
+}
+#add-emp{
+    background-color: forestgreen;
+    color: white;
+    padding: 5px 25px;
+    font-size: 18px;
+    border: 2px solid white;
+    outline: none;
+}
+.employee-table-section{
+    margin: 50px;
+}
+.employee-table-section table , .employee-table-section th , .employee-table-section td{
+    border: 2px solid forestgreen;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+
+}
+.employee-table-section table{
+    width: 100%;
+    box-shadow: 0 0 15px black;
+}

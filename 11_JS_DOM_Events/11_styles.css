@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: "Comic Sans MS",sans-serif;
+}
+h2{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 10px;
+}
+#login-form{
+    background-color: lightgray;
+    width: 500px;
+    margin:  auto;
+    padding: 10px;
+}
+input{
+    outline: none;
+}
+#sms-app{
+    text-align: center;
+}
+#sms-app textarea{
+    border-radius: 10px;
+    outline: none;
+}
+#sms-app span{
+    color: red;
+    font-size: 30px;
+}

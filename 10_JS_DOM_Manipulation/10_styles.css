@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    font-family: "Comic Sans MS",sans-serif;
+}
+h2{
+    background-color: lightsalmon;
+    text-align: center;
+    padding: 10px;
+}
+div{
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+section img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+}

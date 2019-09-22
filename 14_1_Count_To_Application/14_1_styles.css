@@ -1,0 +1,28 @@
+body{
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+}
+
+.count-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.count-article {
+    display: inline-block;
+    padding: 20px;
+    margin: 0 60px 0 60px;
+}
+.count-article h1{
+    font-size: 60px;
+    margin: 0;
+}
+.count-article span{
+    text-shadow: 0 0 15px red;
+}

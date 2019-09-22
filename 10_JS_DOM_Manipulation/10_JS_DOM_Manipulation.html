@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="10_styles.css">
+</head>
+<body>
+
+    <h2></h2>
+
+    <div>
+
+        <!-- Normal DOM Manipulation -->
+
+        <button onclick="sayGoodMorning()">Good Morning</button>
+        <button onclick="sayGoodAfternoon()">Good Afternoon</button>
+        <button onclick="sayGoodEvening()">Good Evening</button>
+        <button onclick="sayGoodNight()">Good Night</button> |
+
+        <!-- JavaScript Event Listeners -->
+
+        <button id="gm">Good Morning</button>
+        <button id="ga">Good Afternoon</button>
+        <button id="ge">Good Evening</button>
+        <button id="gn">Good Night</button>
+
+    </div>
+
+
+    <h3>Change The Images</h3>
+    <section>
+        <img id="myImage" src="../img/nature_path.jpg">
+        <article>
+            <button onclick="changeImage('../img/forest.jpg')">Forest</button>
+            <button onclick="changeImage('../img/corporate.jpg')">Corporate</button>
+            <button onclick="changeImage('../img/lightbulbs.jpg')">Light Bulbs</button>
+            <button onclick="changeImage('../img/nature_path.jpg')">Nature Path</button>
+        </article>
+    </section>
+
+
+<script src="10_script.js"></script>
+</body>
+</html>
